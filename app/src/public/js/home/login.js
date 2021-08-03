@@ -10,5 +10,5 @@ function login(){
     const req = {
         id = id.value, 
         psword = psword.value,
-    }
+    };
 }
