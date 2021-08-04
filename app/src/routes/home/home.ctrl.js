@@ -15,7 +15,7 @@ const process = {
     login: (req, res) => {
         const user = new User(req.body);
         const response = user.login();
-        return res.json(response);
+        return res.json(response);  // 클라이언트에게 json 형태로 응답
     }
 };
 
